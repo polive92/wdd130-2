@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Cutive+Mono&display=swap');
+nav {
+    background-color: #FFFFFF;
+    font-size: 20px;
+    line-height: 5em;
+    display: flex;
+    justify-content: space-evenly;
+}
+.site_logo {
+    width: 150px;
+}
+nav a {
+    color: #B07C40;
+    align-items: center;
+    margin-bottom: -20px;
+}
+body {
+    background-color: #FFFFFF;
+}
+nav .logo {
+    margin-top: 20px;
+}
+.home-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+
+}
+footer {
+    background-color: #FFFFFF;
+    font-size: 20px;
+    line-height: 5em;
+    display: flex;
+    justify-content: space-evenly;
+}
+footer a {
+    color: #B07C40;
+}
+footer .social img {
+    padding-top: 45px;
+}
