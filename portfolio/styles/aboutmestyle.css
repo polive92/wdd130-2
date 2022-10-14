@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Cutive+Mono&display=swap');
+nav {
+    background-color: #FFFFFF;
+    font-size: 20px;
+    line-height: 5em;
+    display: flex;
+    justify-content: space-evenly;
+}
+.site_logo {
+    width: 150px;
+}
+nav a {
+    color: #B07C40;
+    align-items: center;
+    margin-bottom: -20px;
+}
+body {
+    background-color: #F2F2F2;
+}
+nav .logo {
+    margin-top: 20px;
+}
+.headline-text {
+    font-family: 'Cinzel', 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-align: center;
+}
+.main-text {
+    font-family: 'Cutive Mono', 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: center;
+}
+.home-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+
+}
+footer {
+    background-color: #FFFFFF;
+    font-size: 20px;
+    line-height: 5em;
+    display: flex;
+    justify-content: space-evenly;
+}
+footer a {
+    color: #B07C40;
+}
+footer .social img {
+    padding-top: 45px;
+}
+.slider-frame {
+    overflow: hidden;
+    height: 400px;
+    width: 600px;
+    margin-left: 360px;
+    margin-top: 20px;
+    align-items: center
+}
+
+/* -----slide animation------*/
+@-webkit-keyframes slide_animation {
+    0% {left: 0px;}
+    10% {left: 0px;}
+    20% {left: 1200px;}
+    30% {left: 1200px;}
+    40% {left: 2400px;}
+    50% {left: 2400px;}
+    60% {left: 1200px;}
+    70% {left: 1200px;}
+    80% {left: 0px;}
+    90% {left: 0px;}
+    100% {left: 0px;}
+}
+.slide-images {
+    width: 3000px;
+    height: 400px;
+    margin: 0 0 0 -2400px;
+    position: relative;
+    -webkit-animation-name: slide_animation;
+    -webkit-animation-duration: 33s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-play-state: running;
+}
+.img-container {
+    height: 400px;
+    width: 600px;
+    position: relative;
+    float: left;
+}
+
+/* end of slide animation -------- */
