@@ -3,17 +3,16 @@
 nav {
     background-color: #FFFFFF;
     font-size: 20px;
-    line-height: 5em;
+    line-height: 3em;
     display: flex;
     justify-content: space-evenly;
+    height: 120px;
 }
-.site_logo {
-    width: 150px;
-}
+
 nav a {
     color: #B07C40;
     align-items: center;
-    margin-bottom: -20px;
+    margin-top: 20px;
 }
 body {
     background-color: #F2F2F2;
@@ -23,11 +22,28 @@ nav .logo {
 }
 .home-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
 
 }
-.hireme-button {
+.main-intro {
+    text-align: center;
+    margin-right: 40px;
+    margin-top: 150px;
+    font-family: 'Cutive Mono', 'Times New Roman', Times, serif;
+    font-size: 12px;
+    line-height: 30px;
+}
+.main-intro h1 {
+    margin-bottom: 100px;
+    font-family: 'Cinzel', 'Times New Roman', Times, serif ;
+    font-size: 40px;
+}
+#title-msg {
+    margin-left: 80px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    z-index: 1;
 
 }
 .hire {
@@ -37,17 +53,48 @@ nav .logo {
     font-size: 15px;
     margin-top: 50px;
     border-radius: 5px;
+    color: #FFFFFF;
+}
+.hire-button {
+    margin-left: 550px;
+    margin-top: 120px;
+}
+.hire-button a:hover {
+    color: black;
 }
 footer {
     background-color: #FFFFFF;
     font-size: 20px;
-    line-height: 5em;
+    line-height: 3em;
     display: flex;
     justify-content: space-evenly;
+    height: 120px;
+}
+footer p {
+    margin-top: 25px;
 }
 footer a {
     color: #B07C40;
 }
 footer .social img {
-    padding-top: 45px;
+    margin-top: 25px;
+}
+nav a:hover {
+    color: black;
+}
+footer a:hover {
+    color: black;
+}
+#background {
+    height: 800px;
+    width: 750px;
+    background-color: #B07C40;
+    margin-top: -930px;
+    margin-bottom: 100px;
+    margin-left: 30px;
+
+    z-index: -1;
+}
+.logo {
+    margin-bottom: 40px;
 }
