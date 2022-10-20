@@ -54,7 +54,7 @@ footer .social img {
 }
 .main-intro h2 {
     font-family: 'Cutive Mono', 'Times New Roman', Times, serif;
-    margin-left: -500px;
+    margin-left: -300px;
     margin-bottom: -50px;
     margin-top: 50px;
     text-align: center;
@@ -68,7 +68,7 @@ footer .social img {
     grid-row: 2;
     display: flex;
     margin-top: 400px;
-    margin-left: 400px;
+    margin-left: 300px;
     margin-right: 100px;
 }
 .img-1 {
