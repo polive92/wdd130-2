@@ -2,17 +2,15 @@
 nav {
     background-color: #FFFFFF;
     font-size: 20px;
-    line-height: 5em;
+    line-height: 3em;
     display: flex;
     justify-content: space-evenly;
-}
-.site_logo {
-    width: 150px;
+    height: 120px;
 }
 nav a {
     color: #B07C40;
     align-items: center;
-    margin-bottom: -20px;
+    margin-top: 20px;
 }
 body {
     background-color: #F2F2F2;
@@ -22,13 +20,22 @@ nav .logo {
 }
 .headline-text {
     font-family: 'Cinzel', 'Times New Roman', Times, serif;
-    font-size: 30px;
+    font-size: 35px;
     text-align: center;
+    margin-top: -1200px;
+    text-decoration: underline;
+    font-weight: 300;
+    z-index: 1;
 }
 .main-text {
     font-family: 'Cutive Mono', 'Times New Roman', Times, serif;
     font-size: 20px;
     text-align: center;
+    line-height: 30px;
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-top: -1050px;
+    z-index: 1;
 }
 .home-grid {
     display: grid;
@@ -39,15 +46,20 @@ nav .logo {
 footer {
     background-color: #FFFFFF;
     font-size: 20px;
-    line-height: 5em;
+    line-height: 3em;
     display: flex;
     justify-content: space-evenly;
+    height: 120px;
+   
+}
+footer p {
+    margin-top: 25px;
 }
 footer a {
     color: #B07C40;
 }
 footer .social img {
-    padding-top: 45px;
+    margin-top: 25px;
 }
 .slider-frame {
     overflow: hidden;
@@ -56,6 +68,23 @@ footer .social img {
     margin-left: 360px;
     margin-top: 20px;
     align-items: center
+}
+.img-scroll {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    z-index: 1;
+    margin-top: -200px;
+}
+.img-scroll h2 {
+    text-decoration: underline;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 20px;
+    z-index: 1;
+    margin-top: -60px;
+}
+.background {
+    z-index: -1;
 }
 
 /* -----slide animation------*/
@@ -78,7 +107,7 @@ footer .social img {
     margin: 0 0 0 -2400px;
     position: relative;
     -webkit-animation-name: slide_animation;
-    -webkit-animation-duration: 33s;
+    -webkit-animation-duration: 20s;
     -webkit-animation-iteration-count: infinite;
     -webkit-animation-direction: alternate;
     -webkit-animation-play-state: running;
