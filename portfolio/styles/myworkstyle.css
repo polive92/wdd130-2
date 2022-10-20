@@ -2,9 +2,10 @@
 nav {
     background-color: #FFFFFF;
     font-size: 20px;
-    line-height: 5em;
+    line-height: 3em;
     display: flex;
     justify-content: space-evenly;
+    height: 120px;
 }
 .site_logo {
     width: 150px;
@@ -12,10 +13,10 @@ nav {
 nav a {
     color: #B07C40;
     align-items: center;
-    margin-bottom: -20px;
+    margin-top: 20px;
 }
 body {
-    background-color: #FFFFFF;
+    background-color: #F2F2F2F2;
 }
 nav .logo {
     margin-top: 20px;
@@ -23,19 +24,66 @@ nav .logo {
 .home-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
 
 }
 footer {
     background-color: #FFFFFF;
     font-size: 20px;
-    line-height: 5em;
+    line-height: 3em;
     display: flex;
     justify-content: space-evenly;
+    height: 120px;
 }
 footer a {
     color: #B07C40;
 }
 footer .social img {
-    padding-top: 45px;
+    margin-top: 25px;
+}
+.name-title {
+    text-align: center;
+    font-family: 'Cinzel', 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-decoration: underline;
+    margin-top: 50px;
+}
+.title-image {
+    justify-content: center;
+    margin-left: 300px;
+}
+.main-intro h2 {
+    font-family: 'Cutive Mono', 'Times New Roman', Times, serif;
+    margin-left: -300px;
+    margin-bottom: -50px;
+    margin-right: -100px;
+    margin-top: 50px;
+    text-align: center;
+    grid-column: 2;
+    grid-row: 1;
+    font-size: 20px;
+    font-weight: lighter;
+
+}
+.work-examples {
+    grid-row: 2;
+    display: flex;
+    margin-top: 400px;
+    margin-left: 800px;
+}
+.img-1 {
+    grid-column: 1;
+    margin-right: 100px;
+}
+.img-2 {
+    grid-column: 2;
+    margin-right: 100px;
+}
+.img-3 {
+    grid-column: 3;
+}
+.github-URL {
+    grid-row: 3;
+    margin-left: 900px;
+
 }
