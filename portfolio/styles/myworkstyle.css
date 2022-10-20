@@ -56,6 +56,7 @@ footer .social img {
     font-family: 'Cutive Mono', 'Times New Roman', Times, serif;
     margin-left: -800px;
     margin-bottom: -50px;
+    margin-right: 200px;
     margin-top: 50px;
     text-align: center;
     grid-column: 2;
@@ -67,7 +68,7 @@ footer .social img {
 .work-examples {
     grid-row: 2;
     display: flex;
-    margin-top: 400px;
+    margin-top: 200px;
     margin-left: 300px;
     margin-right: 100px;
 }
