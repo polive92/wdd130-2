@@ -25,18 +25,26 @@ nav .logo {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
 
+.main-intro {
+    margin-top: 100px;
+}
+
+
 }
 .main-intro h2 {
     text-align: center;
-    margin-right: 40px;
-    margin-top: 150px;
+    margin-right: 100px;
+    margin-left: 10px;
+    margin-top: 100px;
     font-family: 'Cutive Mono', 'Times New Roman', Times, serif;
     font-size: 20px;
     line-height: 30px;
     font-weight: lighter;
 }
 .main-intro h1 {
-    margin-bottom: 100px;
+    margin-bottom: 50px;
+    margin-left: 60px;
+    margin-top: 150px;
     font-family: 'Cinzel', 'Times New Roman', Times, serif ;
     font-size: 40px;
 }
@@ -57,7 +65,7 @@ nav .logo {
     color: #FFFFFF;
 }
 .hire-button {
-    margin-left: 550px;
+    margin-left: 700px;
     margin-top: 120px;
 }
 .hire-button a:hover {
