@@ -26,13 +26,14 @@ nav .logo {
     grid-template-rows: 1fr;
 
 }
-.main-intro {
+.main-intro h2 {
     text-align: center;
     margin-right: 40px;
     margin-top: 150px;
     font-family: 'Cutive Mono', 'Times New Roman', Times, serif;
-    font-size: 12px;
+    font-size: 20px;
     line-height: 30px;
+    font-weight: lighter;
 }
 .main-intro h1 {
     margin-bottom: 100px;
