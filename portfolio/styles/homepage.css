@@ -24,13 +24,9 @@ nav .logo {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
-
-.main-intro {
-    margin-top: 100px;
 }
 
 
-}
 .main-intro h2 {
     text-align: center;
     margin-right: 100px;
